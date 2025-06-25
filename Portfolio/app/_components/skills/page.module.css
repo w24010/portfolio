@@ -1,5 +1,5 @@
 .skillMain {
-  color: rgb(247, 248, 247);
+  color: rgba(254, 255, 254, 0.795);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@
 }
 
 .carouselBtn {
-  background: #ffffff22;
+  background: #706e6e60; 
   color: #ffffff;
   border: none;
   border-radius: 50%;
@@ -38,7 +38,7 @@
   width: 240px;
   height: 240px;
   text-align: center;
-  background:  #ffffff0e;; /* bright white for contrast */
+  background:  #43424260; /* bright white for contrast */
   border-radius: 22px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.25); /* stronger shadow */
   display: flex;
@@ -56,7 +56,7 @@
   width: 160px;
   height: 160px;
   text-align: center;
-  background:  #ffffff0e; /* light gray for contrast */
+  background:  #43424260; /* light gray for contrast */
   border-radius: 16px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.18);
   display: flex;
