@@ -1,0 +1,69 @@
+.profileMain {
+    min-height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profileContainer {
+    color:rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    background: rgba(50, 45, 45, 0.4);
+    padding: 40px 32px;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  }
+  
+  .profileImageWrapper {
+    flex-shrink: 0;
+  }
+  
+  .profileImage {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profileDetails {
+    max-width: 400px;
+  }
+
+  .extensionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px; /* space between the two containers */
+    margin-top: 32px;
+  }
+  
+  .containerA, .containerB {
+    color: rgb(255, 255, 255);;
+    background: rgba(50, 45, 45, 0.4);
+    padding: 24px 32px;
+    border-radius: 12px;
+    max-width: 350px;
+    min-width: 250px;
+    flex: 1 1 0;
+  }
+
+  .profileImageWrapper,
+  .profileDetails {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 1.2s ease, transform 2.2s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  
+  .containerA,
+  .containerB {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 2.5s ease, transform 3.5s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+

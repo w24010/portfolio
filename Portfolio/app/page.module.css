@@ -1,0 +1,88 @@
+.main {
+  padding-top: 140px;
+  min-height: 100vh;
+  background-image:url(../public/black-white-mountain-background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+  flex-direction: column; 
+  align-items: center;
+  gap: 32px;
+}
+
+.imageWrapper {
+  position:relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff; 
+}
+
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Add to page.module.css */
+@keyframes slideShow {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+}
+
+.introSection {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #ffffff;
+  background: rgba(95, 95, 95, 0.434);
+  padding: 20px 30px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.strengthSection {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  overflow: hidden;
+}
+

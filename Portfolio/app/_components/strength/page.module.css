@@ -1,0 +1,27 @@
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  width: 100%;
+  max-width: 900px;
+  margin: 80px auto;
+  min-height: 400px;
+}
+
+.featureBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222c3c;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 16px;
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+  min-height: 180px;
+  cursor: pointer;
+}
+.featureBox:hover {
+  background: #2a5298;
+  transform: translateY(-6px) scale(1.03);
+}
