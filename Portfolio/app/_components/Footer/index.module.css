@@ -28,3 +28,22 @@
 .socials a:hover {
   color: #77797bc3;
 }
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 10px 4px;
+    font-size: 0.95rem;
+  }
+  .socials {
+    gap: 14px;
+    padding-top: 10px;
+  }
+  .socials a {
+    font-size: 1.3rem;
+  }
+  .cr {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 0.9rem;
+  }
+}

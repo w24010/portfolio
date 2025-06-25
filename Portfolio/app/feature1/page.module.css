@@ -6,3 +6,16 @@
     align-items: center;     /* horizontal centering */
     text-align: center;
   }
+
+  @media (max-width: 600px) {
+    .centeredFeature {
+      padding: 0 2vw;
+    }
+    .centeredFeature h1,
+    .centeredFeature h2 {
+      font-size: 1.4rem;
+    }
+    .centeredFeature p {
+      font-size: 1rem;
+    }
+  }

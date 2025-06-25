@@ -1,5 +1,5 @@
 .main {
-  padding-top: 140px;
+  padding-top: 170px;
   min-height: 100vh;
   background-image:url(../public/black-white-mountain-background.png);
   background-size: cover;
@@ -86,3 +86,45 @@
   overflow: hidden;
 }
 
+@media (max-width: 900px) {
+  .main {
+    padding-top: 120px;
+  }
+  .container {
+    padding: 24px;
+    gap: 20px;
+  }
+  .imageWrapper {
+    width: 180px;
+    height: 180px;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .introSection {
+    font-size: 1.1rem;
+    padding: 16px 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding-top: 80px;
+  }
+  .container {
+    padding: 10px;
+    gap: 12px;
+  }
+  .imageWrapper {
+    width: 110px;
+    height: 110px;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .introSection {
+    font-size: 1rem;
+    padding: 10px 4px;
+    max-width: 95vw;
+  }
+}

@@ -79,3 +79,28 @@
     color: #e74c3c;
     margin-left: 2px;
   }
+
+  @media (max-width: 600px) {
+    .contactWrapper {
+      min-height: 100vh;
+      padding: 1.5rem 0.5rem;
+    }
+    .contactTitle {
+      font-size: 1.5rem;
+      margin-bottom: 1.2rem;
+      text-align: center;
+    }
+    .contactForm {
+      padding: 1.2rem 0.5rem;
+      min-width: unset;
+      max-width: 98vw;
+      width: 100%;
+    }
+    .label {
+      font-size: 1rem;
+    }
+    .button {
+      font-size: 1rem;
+      padding: 0.7rem 0;
+    }
+  }

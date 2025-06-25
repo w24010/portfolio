@@ -80,3 +80,56 @@
   margin-bottom: 14px;
   color: #ffffff;
 }
+
+@media (max-width: 900px) {
+  .carousel {
+    gap: 40px;
+  }
+  .carouselCardCenter {
+    width: 180px;
+    height: 180px;
+    font-size: 1rem;
+  }
+  .carouselCardSide {
+    width: 110px;
+    height: 110px;
+    font-size: 0.85rem;
+  }
+  .icon {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .skillMain {
+    min-height: 40vh;
+    padding: 0 2vw;
+  }
+  .carouselWrapper {
+    gap: 10px;
+  }
+  .carousel {
+    gap: 12px;
+  }
+  .carouselCardCenter {
+    width: 120px;
+    height: 120px;
+    font-size: 0.85rem;
+    border-radius: 12px;
+  }
+  .carouselCardSide {
+    width: 70px;
+    height: 70px;
+    font-size: 0.7rem;
+    border-radius: 8px;
+  }
+  .icon {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+  }
+  .carouselBtn {
+    width: 32px;
+    height: 32px;
+    font-size: 1rem;
+  }
+}
